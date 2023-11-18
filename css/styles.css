@@ -27,31 +27,43 @@ body {
     letter-spacing: 2%;
     background-color: #FFFFFF;
 }
+
 .container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
-.page-header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
 .page-header .container {
     display: flex;
 }
-.link, .menu {
-    text-decoration: none;
-    display: block;
-    padding: 24px 24px;
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
 }
+.navigation {
+   display: flex;
+   align-items: center;
+}
+.logo{
+    margin-right: 76px;
+}
+.menu {
+   gap: 40px;
+   display: flex;
+}
+.menu .link {
+    padding: 24px 0;
+}
+.address-menu {
+    display: flex;
+    gap: 40px;
+}
+
+
 
 
 a {
     display: block;
-}
-.navigation {
-    display: flex;
 }
 .contact {
     display: flex;
