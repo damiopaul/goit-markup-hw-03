@@ -163,6 +163,7 @@ body {
 .order-button:hover {
     background-color: #404BBF;
 }
+
 .features-section {
     padding: 120px 0;
 }
@@ -184,7 +185,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bootom: 8px;
+    margin-bottom: 8px;
 }
 .description {
     letter-spacing: 0.02em;
